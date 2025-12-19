@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Product } from '../types';
 
@@ -8,13 +7,13 @@ interface Props {
 
 const ProductCard: React.FC<Props> = ({ product }) => {
   return (
-    <div className="bg-white border border-neutral-200 group flex flex-col h-full shadow-sm hover:shadow-xl hover:scale-[1.02] transition-all duration-300 ease-out">
+    <div className="bg-white border border-neutral-200 group flex flex-col h-full shadow-sm hover:shadow-2xl hover:scale-[1.04] transition-all duration-500 ease-in-out will-change-transform">
       {/* Image Section - Fixed Aspect Ratio */}
       <a href={`#/product/${product.id}`} className="block relative overflow-hidden aspect-square bg-neutral-100 border-b border-neutral-100">
         <img 
           src={product.image} 
           alt={product.title} 
-          className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
+          className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
         />
         <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
           {product.material.map(m => (
