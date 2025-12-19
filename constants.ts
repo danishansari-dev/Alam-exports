@@ -1,4 +1,3 @@
-
 import { ProductCategory, Material } from './types';
 
 export const BRAND_NAME = "Alam Exports";
@@ -14,7 +13,6 @@ export const NAV_LINKS = [
   { name: 'Products', path: '#/products', isMega: true },
   { name: 'Custom Rugs', path: '#/custom-rugs' },
   { name: 'Materials', path: '#/materials' },
-  { name: 'Certifications', path: '#/certifications' },
   { name: 'Contact', path: '#/contact' },
 ];
 

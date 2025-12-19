@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -8,7 +7,6 @@ import CategoryPage from './pages/CategoryPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import CustomRugs from './pages/CustomRugs';
 import Materials from './pages/Materials';
-import Certifications from './pages/Certifications';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsConditions from './pages/TermsConditions';
@@ -33,7 +31,6 @@ const App: React.FC = () => {
     if (currentHash === '#/products') return <Products />;
     if (currentHash === '#/custom-rugs') return <CustomRugs />;
     if (currentHash === '#/materials') return <Materials />;
-    if (currentHash === '#/certifications') return <Certifications />;
     if (currentHash === '#/contact') return <Contact />;
     if (currentHash === '#/privacy') return <PrivacyPolicy />;
     if (currentHash === '#/terms') return <TermsConditions />;

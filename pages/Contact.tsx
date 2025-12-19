@@ -1,4 +1,3 @@
-
 import React, { useMemo } from 'react';
 import InquiryForm from '../components/InquiryForm';
 
@@ -26,16 +25,6 @@ const Contact: React.FC = () => {
           <div>
             <p className="text-xs font-bold uppercase tracking-widest text-neutral-400 mb-1">Email</p>
             <p className="text-lg">export@alamexports.com</p>
-          </div>
-          <div className="pt-8 border-t border-neutral-200">
-            <h4 className="text-sm font-bold uppercase tracking-widest text-neutral-900 mb-4">Export Regions</h4>
-            <div className="flex flex-wrap gap-2">
-              {['USA', 'Germany', 'UK', 'France', 'Australia', 'Canada'].map(region => (
-                <span key={region} className="px-3 py-1 bg-stone-100 text-[10px] font-bold uppercase tracking-widest text-neutral-500 border border-neutral-200">
-                  {region}
-                </span>
-              ))}
-            </div>
           </div>
         </div>
       </div>
